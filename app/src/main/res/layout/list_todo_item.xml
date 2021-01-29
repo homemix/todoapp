@@ -24,7 +24,7 @@
             android:layout_marginEnd="16dp"
             android:maxLines="1"
             android:text="Example todo Item"
-            android:textColor="@color/colorPrimaryLight"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="@dimen/dim_title_text_size"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
