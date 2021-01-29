@@ -3,16 +3,16 @@ package com.thewolftechnologies.todoapp.models;
 public class TodoModel {
     String id;
     String name;
-    String state;
+    String status;
     String timestamp;
 
     public TodoModel() {
     }
 
-    public TodoModel(String id, String name, String state, String timestamp) {
+    public TodoModel(String id, String name, String status, String timestamp) {
         this.id = id;
         this.name = name;
-        this.state = state;
+        this.status = status;
         this.timestamp = timestamp;
     }
 
@@ -32,12 +32,12 @@ public class TodoModel {
         this.name = name;
     }
 
-    public String getState() {
-        return state;
+    public String getStatus() {
+        return status;
     }
 
-    public void setState(String state) {
-        this.state = state;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public String getTimestamp() {
